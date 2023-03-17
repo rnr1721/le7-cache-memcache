@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Cache;
+namespace Core\Cache;
 
 use Psr\SimpleCache\CacheInterface;
-use App\Cache\Adapters\CacheMemcacheAdapter;
-use App\Cache\Adapters\CacheMemcachedAdapter;
+use Core\Cache\Adapters\CacheMemcacheAdapter;
+use Core\Cache\Adapters\CacheMemcachedAdapter;
 use \Memcache;
 use \Memcached;
 

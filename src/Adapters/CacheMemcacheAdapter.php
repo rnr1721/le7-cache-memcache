@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Cache\Adapters;
+namespace Core\Cache\Adapters;
 
-use App\Cache\SCAdapterInterface;
-use App\Cache\SCAdapterTrait;
+use Core\Cache\SCAdapterInterface;
+use Core\Cache\SCAdapterTrait;
 use \Memcache;
 use \DateInterval;
 
