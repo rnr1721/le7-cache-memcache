@@ -1,0 +1,36 @@
+{
+    "name": "rnr1721/le7-cache-memcache",
+    "description": "PSR-16 Memcache adapter for Le7 framework or any other PHP projects",
+    "keywords": ["le7", "le7-framework", "framework", "view", "component", "memcache", "memcached"],
+    "authors": [
+        {
+            "name": "Eugeny G",
+            "email": "rnr1721@gmail.com",
+            "homepage": "https://xhamster.biz.ua",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Cache\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "rnr1721",
+            "email": "rnr1721@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-memcached": "^3.2",
+        "rnr1721/le7-cache": "^1.0"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.7",
+        "phpunit/phpunit": "^10.0"
+    }
+}
