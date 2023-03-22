@@ -1,0 +1,1 @@
+{"version":1,"defects":{"CacheTest::testMemcache":8,"CacheTest::testMemcached":8},"times":{"CacheTest::testMemcached":2.02099999999999990762944435118697583675384521484375,"CacheTest::testMemcache":2.008999999999999896971303314785473048686981201171875}}

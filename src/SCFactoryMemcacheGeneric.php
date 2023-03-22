@@ -4,13 +4,15 @@ declare(strict_types=1);
 
 namespace Core\Cache;
 
+use Core\Cache\SCFactoryGeneric;
+use Core\Cache\Interfaces\SCFactoryMemcache;
 use Psr\SimpleCache\CacheInterface;
 use Core\Cache\Adapters\CacheMemcacheAdapter;
 use Core\Cache\Adapters\CacheMemcachedAdapter;
 use \Memcache;
 use \Memcached;
 
-class SCFactoryMemcache
+class SCFactoryMemcacheGeneric extends SCFactoryGeneric implements SCFactoryMemcache
 {
 
     public function getMemcache(string $host = "127.0.0.1", int $port = 11211): CacheInterface

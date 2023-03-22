@@ -1,7 +1,8 @@
 <?php
 
+use Core\Cache\SCFactoryMemcacheGeneric;
+use Core\Cache\Interfaces\SCFactoryMemcache;
 use Psr\SimpleCache\CacheInterface;
-use Core\Cache\SCFactoryMemcache;
 
 require_once 'vendor/autoload.php';
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -13,7 +14,7 @@ class CacheTest extends PHPUnit\Framework\TestCase
 
     protected function setUp(): void
     {
-        $this->factory = new SCFactoryMemcache();
+        $this->factory = new SCFactoryMemcacheGeneric();
     }
 
     public function testMemcache()
