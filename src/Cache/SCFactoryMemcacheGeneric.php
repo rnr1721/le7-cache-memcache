@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Core\Cache;
 
 use Core\Cache\SCFactoryGeneric;
-use Core\Cache\Interfaces\SCFactoryMemcache;
+use Core\Interfaces\SCFactoryMemcache;
 use Psr\SimpleCache\CacheInterface;
 use Core\Cache\Adapters\CacheMemcacheAdapter;
 use Core\Cache\Adapters\CacheMemcachedAdapter;

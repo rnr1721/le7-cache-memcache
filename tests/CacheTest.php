@@ -1,7 +1,7 @@
 <?php
 
 use Core\Cache\SCFactoryMemcacheGeneric;
-use Core\Cache\Interfaces\SCFactoryMemcache;
+use Core\Interfaces\SCFactoryMemcache;
 use Psr\SimpleCache\CacheInterface;
 
 require_once 'vendor/autoload.php';
