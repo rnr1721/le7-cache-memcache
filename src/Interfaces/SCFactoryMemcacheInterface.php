@@ -4,7 +4,7 @@ namespace Core\Interfaces;
 
 use Psr\SimpleCache\CacheInterface;
 
-interface SCFactoryMemcache extends SCFactory
+interface SCFactoryMemcacheInterface extends SCFactoryInterface
 {
 
     /**
